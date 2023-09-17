@@ -1,0 +1,127 @@
+$ pwd
+/home/ccuser/workspace/lingua-franca
+$ nano ~/.bash_profile
+$ cat ~/.bash_profile
+echo "Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services"
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+$ nano ~/.bash_profile
+$ cat ~/.bash_profile
+echo "Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services"
+alias md="mkdir"
+alias d="date"
+alias hy="history"
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+$ md translations
+$ ls
+arabic.txt   english.txt  hindi.txt     javanese.txt  mandarin.txt  russian.txt  tagalog.txt  thai.txt      vietnamese.txt
+bengali.txt  german.txt   japanese.txt  korean.txt    panjabi.txt   spanish.txt  tamil.txt    translations
+$ d
+Sun Sep 17 11:45:33 UTC 2023
+$ hy
+    1  pwd
+    2  nano ~/.bash_profile
+    3  cat ~/.bash_profile
+    4  source ~/.bash_profile
+    5  nano ~/.bash_profile
+    6  cat ~/.bash_profile
+    7  source ~/.bash_profile
+    8  md translations
+    9  ls
+   10  d
+   11  hy
+$ less javanese.txt
+$
+$ nano ~/.bash_profile
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+$ less javanese.txt
+$ cat javanese.txt
+Javanese is the language of the Javanese people from the central and eastern parts of the island of Java, in Indonesia. There are also pockets of Javanese speakers in the northern coast of western Java. It is the native language of more than 98 million people[4] (more than 42% of the total population of Indonesia). Src: Wiki
+$ nano javanese.txt
+$ less javanese.txt
+$ nano ~/.bash_profile
+$ source ~/.bash_profile
+Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services
+c[○┬●]כ md script
+c[○┬●]כ d
+Sun Sep 17 11:51:07 UTC 2023
+c[○┬●]כ hy
+    1  pwd
+    2  nano ~/.bash_profile
+    3  cat ~/.bash_profile
+    4  source ~/.bash_profile
+    5  nano ~/.bash_profile
+    6  cat ~/.bash_profile
+    7  source ~/.bash_profile
+    8  md translations
+    9  ls
+   10  d
+   11  hy
+   12  less javanese.txt
+   13  nano ~/.bash_profile
+   14  source ~/.bash_profile
+   15  less javanese.txt
+   16  cat javanese.txt
+   17  nano javanese.txt
+   18  less javanese.txt
+   19  nano ~/.bash_profile
+   20  source ~/.bash_profile
+   21  md script
+   22  d
+   23  hy
+c[○┬●]כ cat ~/.bash_profile
+echo "Hello, Hola, Ni Hao, Bonjour, and Kon'nichiwa! Welcome to our translation services"
+alias md="mkdir"
+alias d="date"
+alias hy="history"
+export LESS="-N"
+export PS1="c[○┬●]כ "
+c[○┬●]כ env
+HOSTNAME=ff6905d79cc1
+GEM_HOME=/home/ccuser/.gem/ruby/2.3.0
+TERM=xterm
+EXPIRES_AT=1694954558
+NLTK_DATA=/home/ccuser/.nltk_data
+PATH=/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/home/ccuser/.composer/vendor/bin:/home/ccuser/.bin:/home/ccuser/node_modules/.bin:/home/ccuser/.gem/ruby/2.3.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+CODEX_RUNNER_PATH=/var/codecademy/codex/runners
+PWD=/home/ccuser/workspace/lingua-franca
+MPLBACKEND=agg
+LANG=en_US.UTF-8
+SESSION_ID=e5e5be33-8cfe-40e1-a895-62c60f526916
+TZ=Etc/UTC
+PS1=c[○┬●]כ
+SHLVL=1
+HOME=/home/ccuser
+LOG_LEVEL=2
+WORKSPACE_SERVICE_HOST=https://workspace.production-eks.codecademy.com
+EIN_IMAGE=default
+LESS=-N
+PYTHONPATH=/var/codecademy/runner_contexts/python:
+_=/usr/bin/env
+c[○┬●]כ env | grep LESS
+LESS=-N
+c[○┬●]כ ls -latr
+total 8
+drwxr-xr-x 1 ccuser ccuser   27 Sep 17 11:42 ..
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 vietnamese.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 thai.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 tamil.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 tagalog.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 spanish.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 russian.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 panjabi.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 mandarin.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 korean.txt
+-rw-r--r-- 1 ccuser ccuser  327 Sep 17 11:42 javanese.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 japanese.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 hindi.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 german.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 english.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 bengali.txt
+-rw-r--r-- 1 ccuser ccuser    0 Sep 17 11:42 arabic.txt
+drwxr-xr-x 2 ccuser ccuser    6 Sep 17 11:45 translations
+drwxr-xr-x 2 ccuser ccuser    6 Sep 17 11:51 script
+drwxr-xr-x 4 ccuser ccuser 4096 Sep 17 11:51 .
+c[○┬●]כ
