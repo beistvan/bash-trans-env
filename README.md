@@ -1,0 +1,1 @@
+# Bash Translation Environment Project
